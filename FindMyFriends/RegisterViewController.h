@@ -21,7 +21,7 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *registerUsernameTF;
 @property (strong, nonatomic) IBOutlet UITextField *registerPasswordTF;
-@property (strong, nonatomic) IBOutlet UITextField *emailTF;
+@property (strong, nonatomic) IBOutlet UITextField *passwordAgain;
 - (IBAction)rLoginBtn:(id)sender;
 
 

@@ -18,6 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+    //To dismiss the keyboard
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(dismissKeyboard)];
+    [self.view addGestureRecognizer:tapGestureRecognizer];
+    tapGestureRecognizer.cancelsTouchesInView = NO;
+    
+    
 }
 
 
